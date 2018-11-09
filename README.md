@@ -51,6 +51,16 @@ To sample, we give number of chars to be generated as the output. The sample() m
 
 # Runing the code:
 
+Directories needed:
+
+data : Put the MIDI files inside it
+
+model : The models after epochs will be saved inside this directory
+
+logs : Log directory
+
+output : Output files are saved here
+
 To train : python train.py --epochs=100 --freq=10
 
 By default these values are 100 and 10.
